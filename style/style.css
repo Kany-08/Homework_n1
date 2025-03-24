@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- Hero --> */
+.hero {
+    width: 1440px;
+    height: 900px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.hero__container::after {
+    content: "";
+    display: block;
+    background-image: url("../media/image-removebg-preview\ \(14\)\ 1.png");
+    width: 408px;
+    height: 720px;
+    padding-bottom: 176px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    padding-right: 240px;
+    /* padding-left: 100px; */
+    /* margin-right: 900px; */
+}
+
+.hero__content {
+    flex-basis: 600px;
+    padding-left: 133px;
+
+
+    /* background-color: red; */
+}
+
+.hero__content h2 {
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    padding-top: 104px;
+    color: #161515;
+}
+
+h1 {
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 250px;
+    color: #272727;
+    /* padding-top: 53px; */
+
+}
+
+.hero__text {
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 32px;
+    /* padding-top: 43px; */
+    color: #161515;
+    line-height: 155%;
+    width: 575px;
+    height: 142px;
+}
+
+.hero__btns {
+    padding-top: 61px;
+    padding-bottom: 168px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 278px;
+    height: 82px;
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.white {
+    background-color: white;
+    color: #272727;
+    border: none;
+    width: 143px;
+    height: 82px;
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+main h2 {
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 186%;
+    letter-spacing: 0%;
+    padding-top: 43px;
+    color: #161515;
+}
+
+main h3 {
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.main-container__pic-bg {
+    margin: 84px auto;
+    width: 417px;
+    height: 630px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container__item-name {
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 32px;
+
+
+}
+
+.main-container__text {
+    margin: 17px auto;
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 32px;
+    /* padding-top: 43px; */
+    color: #161515;
+    line-height: 155%;
+    width: 531px;
+    height: 194px;
+    text-align: center;
+}
+
+.main-container__pic-bg_second {
+    width: 496px;
+    height: 630px;
+}
+
+.desc-container {
+    padding-top: 59px;
+    /* margin: 59px auto; */
+}
+
+.desc-container__title {
+    
+    font-family: League Spartan;
+    font-weight: 400;
+    font-size: 32px;
+    /* text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    text-underline-offset: 8px; */
+   
+}
+
+.desc-container__title::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 173px;
+    height: 1px;
+    background-color: black;
+    margin: 5px auto 0;
+}
+
+.desc-container__text {
+    display: inline-block;
+    width: 515px;
+    height: 231px;
+    font-family: League Spartan;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: 0%;
+    padding-top: 50px;
+    margin-bottom: 142px;
+    /* text-align: center; */
+
+}
+
+span {
+    font-family: League Spartan;
+font-weight: 500;
+font-size: 24px;
+line-height: 170%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: underline;
+text-decoration-style: solid;
+text-underline-offset: 0%;
+text-decoration-thickness: 0%;
+color: #c39977;
+}
